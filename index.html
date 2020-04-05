@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <h1> Votaciones </h1>
+    </head>
+
+    <body>
+        <form action="/action.php" method="post">
+
+            RUT: <input type="text" id="rut" name="rut" required> <br>
+
+
+            Email: <input type="text" id="mail" name="mail" required> 
+
+            <select name ="dominio">
+                <option value="@sansano.usm.cl"> @sansano.usm.cl </option>
+                <option value="@usm.cl"> @usm.cl </option>
+                <option value="@alumnos.usm.cl"> @alumnos.usm.cl </option>
+            </select>
+
+            <br>
+            <p> Elija su voto </p>
+
+            <input type="radio" id="Lista 1" name="respuesta" value="Lista 1" required>
+            <label> Lista 1  </label><br>
+    
+            <input type="radio" id="Lista 2" name="respuesta" value="Lista 2">
+            <label> Lista 2  </label><br>
+    
+            <input type="radio" id="Nulo" name="respuesta" value="Nulo">
+            <label> Nulo </label><br>
+    
+            <input type="radio" id="Blanco" name="respuesta" value="Blanco">
+            <label> Blanco  </label><br><br>
+   
+ 
+            <input type="submit" value= "Submit">
+        </form>
+    </body>
+
+</html>
+
